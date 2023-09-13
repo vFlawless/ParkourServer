@@ -1,0 +1,33 @@
+.stars {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: -2;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.star {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    pointer-events: none;
+}
+
+.small-star {
+    width: 1px;
+    height: 1px;
+}
+
+.medium-star {
+    width: 2px;
+    height: 2px;
+}
+
+.large-star {
+    width: 3px;
+    height: 3px;
+}
+
+button:hover {
+    background-color: #57a1bd;
+}
