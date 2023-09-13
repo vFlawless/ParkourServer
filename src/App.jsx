@@ -7,8 +7,6 @@ function App() {
       <div className="App">
         <StarBackground />
         <Routes>
-          <Route path="/AWDka" element={<div>Sample Component for AWDka</div>} />
-          {/* Add more routes as needed */}
         </Routes>
       </div>
     </Router>
