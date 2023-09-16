@@ -42,7 +42,7 @@ const StarBackground = () => {
 
     const redirectToRandomEndpoint = () => {
         const randomEndpoint = Math.random().toString(36).substr(2, 8).toUpperCase();
-        navigate('/ParkourServer'+ '/' + randomEndpoint);
+        navigate('/PetHunt'+ '/' + randomEndpoint);
     };
 
     return (
