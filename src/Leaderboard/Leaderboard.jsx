@@ -72,7 +72,7 @@ const Leaderboard = () => {
       <StarBackground />
       <div className="leaderboard">
         <button className="back-button" onClick={handleBackClick}>Back</button>
-        <img src="/ExtensionLogo.png" alt="Extension Logo" className="extension-logo" onClick={handleImageClick} />
+        <img src="https://res.cloudinary.com/dapzljsu7/image/upload/v1699837444/ucczzxpgw11nvqznmnmv.png" alt="Extension Logo" className="extension-logo" onClick={handleImageClick} />
         <h1 className="leaderboard-title">Leaderboard</h1>
         <div className="time-period-selector">
           <button

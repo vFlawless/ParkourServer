@@ -171,7 +171,7 @@
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Orbitron', sans-serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     transition: background-color 0.3s;
 }
 
@@ -185,6 +185,6 @@
     right: 20px;
     cursor: pointer;
     /* Set a specific size for your image, if needed */
-    width: 50px;
+    width: 75px;
     height: auto;
 }
