@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import FrontPage from './FrontPage/FrontPage';
-import Leaderboard from './Leaderboard/leaderboard';
+import Leaderboard from './Leaderboard/Leaderboard';
 
 function App() {
   return (
